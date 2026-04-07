@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>七個橙-的抖音直播間</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <div class="banner" style="background-color:#000; color:#fff; padding:15px; text-align:center; font-weight:bold; font-size:20px; border-radius:8px; margin-bottom:20px;">
+          七個橙-的抖音直播間 - 抖音直播
+          <a href="https://live.douyin.com/455085735351" target="_blank" style="color:#ffcc00; text-decoration:none;">
+            https://live.douyin.com/455085735351
+          </a>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a class="primary-button" href="#playlist">開始聆聽</a>
+        <button id="toggleTheme" class="secondary-button">切換主題</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro-card">
+      <div>
+        <h2>快速搜尋你的最愛歌曲</h2>
+        <p>輸入歌手、歌名或分類，立即篩選出歌單內的內容。</p>
+      </div>
+      <div class="search-box">
+        <input id="searchInput" type="search" placeholder="搜尋 歌手、歌曲 或 分類" aria-label="搜尋歌單" />
+        <span id="searchCount">共 0 首歌曲</span>
+      </div>
+    </section>
+
+    <section class="quick-nav">
+      <a class="nav-pill" href="#jay-chou">周杰倫</a>
+      <a class="nav-pill" href="#chen-chi-chen">陳綺貞</a>
+      <a class="nav-pill" href="#fish-liang">梁靜茹</a>
+      <a class="nav-pill" href="#indie">質感文青</a>
+      <a class="nav-pill" href="#bands">樂團組合</a>
+      <a class="nav-pill" href="#cantonese">粵語精選</a>
+      <a class="nav-pill" href="#taiwanese">閩南語精選</a>
+    </section>
+
+    <section id="playlist" class="playlist-grid">
+      <article id="jay-chou" class="playlist-card">
+        <div class="card-header">
+          <h3>🎤 周杰倫</h3>
+          <span>17 首</span>
+        </div>
+        <ul>
+          <li>晴天</li>
+          <li>稻香</li>
+          <li>安靜</li>
+          <li>簡單愛</li>
+          <li>黑色毛衣</li>
+          <li>七里香</li>
+          <li>青花瓷</li>
+          <li>告白氣球</li>
+          <li>紅塵客棧</li>
+          <li>最長的電影</li>
+          <li>說好的幸福呢</li>
+          <li>給我一首歌的時間</li>
+          <li>煙花易冷</li>
+          <li>雨下一整晚</li>
+          <li>蒲公英的約定</li>
+          <li>畫沙</li>
+          <li>可愛女人</li>
+        </ul>
+      </article>
+
+      <article id="chen-chi-chen" class="playlist-card">
+        <div class="card-header">
+          <h3>🎶 陳綺貞</h3>
+          <span>9 首</span>
+        </div>
+        <ul>
+          <li>旅行的意義</li>
+          <li>太聰明</li>
+          <li>我喜歡上你時的內心活動</li>
+          <li>after17</li>
+          <li>慢歌1</li>
+          <li>魚</li>
+          <li>華麗的冒險</li>
+          <li>告訴我</li>
+          <li>小步舞曲</li>
+        </ul>
+      </article>
+
+      <article id="fish-liang" class="playlist-card">
+        <div class="card-header">
+          <h3>💕 梁靜茹</h3>
+          <span>13 首</span>
+        </div>
+        <ul>
+          <li>暖暖</li>
+          <li>勇氣</li>
+          <li>給未來的自己</li>
+          <li>會呼吸的痛</li>
+          <li>慢冷</li>
+          <li>愛久見人心</li>
+          <li>小手拉大手</li>
+          <li>分手快樂</li>
+          <li>沒有如果</li>
+          <li>可惜不是你</li>
+          <li>純真</li>
+          <li>寧夏</li>
+          <li>聽不到</li>
+        </ul>
+      </article>
+
+      <article id="indie" class="playlist-card">
+        <div class="card-header">
+          <h3>📖 質感文青</h3>
+          <span>12 組</span>
+        </div>
+        <ul>
+          <li>陳綺貞：旅行的意義、太聰明、我喜歡上你時的內心活動</li>
+          <li>蘇打綠：小情歌、他夏了夏天、無與倫比的美麗、喜歡寂寞</li>
+          <li>魏如萱：你啊你啊、我在紐約打電話給你</li>
+          <li>盧廣仲：魚仔、慢靈魂、幾分之幾</li>
+          <li>阿肆：世界上的另一個我、致姍姍來遲的你、我在人民廣場吃炸雞</li>
+          <li>孫燕姿：天黑黑、遇見、我懷念的、我不難過、開始懂了</li>
+          <li>陳粒：小半、走馬、虛擬、奇妙能力歌、歷歷萬鄉</li>
+          <li>單依純：想你時風起、R&B All Night</li>
+          <li>徐佳瑩：身騎白馬、失落的沙洲</li>
+          <li>蔡健雅：達爾文、紅色高跟鞋、Letting Go</li>
+          <li>田馥甄：小幸運、你就不要想起我</li>
+          <li>莫文蔚：忽然之間、慢慢喜歡你、這世界那麼多人</li>
+          <li>王菲：紅豆、匆匆那年、旋木</li>
+          <li>林宥嘉：想自由、兜圈、浪費</li>
+        </ul>
+      </article>
+
+      <article id="bands" class="playlist-card">
+        <div class="card-header">
+          <h3>🎸 樂團組合</h3>
+          <span>4 組</span>
+        </div>
+        <ul>
+          <li>五月天：溫柔、擁抱、知足、突然好想你、我不願讓你一個人、志明與春嬌、憨人、孫悟空</li>
+          <li>蘇打綠：小情歌、我好想你、無眠(國語/台語)、你被寫在我的歌裡、無與倫比的美麗、他夏了夏天、喜歡寂寞</li>
+          <li>告五人：愛在夏天、好不容易、唯一、愛人錯過、給你一瓶魔法藥水、我想要佔據你</li>
+          <li>S.H.E：觸電、Super Star、戀人未滿、熱帶雨林、中國話、不想長大</li>
+          <li>BY2：我知道、愛丫愛丫、愛的雙重魔力</li>
+        </ul>
+      </article>
+
+      <article id="cantonese" class="playlist-card">
+        <div class="card-header">
+          <h3>🎵 粵語精選</h3>
+          <span>7 首</span>
+        </div>
+        <ul>
+          <li>謝安琪 - 喜帖街</li>
+          <li>陳僖儀 - 蜚蜚</li>
+          <li>AGA - 孤雛</li>
+          <li>陳奕迅 - 富士山下</li>
+          <li>楊千嬅 - 少女的祈禱 / 再見二丁目 / 可惜我是水瓶座</li>
+          <li>李幸倪 - 一格格</li>
+          <li>容祖兒 - 心淡</li>
+          <li>李克勤 - 月半小夜曲</li>
+        </ul>
+      </article>
+
+      <article id="taiwanese" class="playlist-card">
+        <div class="card-header">
+          <h3>🐟 閩南語精選</h3>
+          <span>11 首</span>
+        </div>
+        <ul>
+          <li>盧廣仲 - 魚仔</li>
+          <li>魏如萱 - 你啊你啊</li>
+          <li>蘇打綠 - 無眠</li>
+          <li>張秀卿 - 車站</li>
+          <li>袁小迪/龍千玉 - 男人情女人心</li>
+          <li>茄子蛋 - 浪子回頭、萬千花蕊慈母悲哀、浪流連</li>
+          <li>黃乙玲 - 同花順</li>
+          <li>珂拉琪 - Aphrodite、生份的你、兩人雨天、好野</li>
+          <li>S.H.E - 我愛雨夜花</li>
+          <li>王力宏/任家萱 - 你是我心內的一首歌</li>
+        </ul>
+      </article>
+    </section>
+
+    <p id="noResult" class="no-result">找不到符合搜尋條件的歌曲。</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 我的音樂歌單 • 由 GitHub Copilot 協助建立</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="返回頂部">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
